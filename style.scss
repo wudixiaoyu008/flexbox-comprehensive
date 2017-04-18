@@ -173,3 +173,67 @@ p{
         order: 1;
     }
 }
+
+.parent11{
+    display: flex;   // or display: inline-flex;
+
+    flex-flow: row wrap; // default: nowrap || wrap || wrap-reverse
+
+    // height: 300px;
+
+    margin-bottom: 50px;
+    li{
+        width: 100px;
+        height: 100px;
+        background-color: #8cacea;
+        margin: 8px;
+        list-style: none;
+    }
+    li:nth-child(1){
+        flex: 2 1 0; /*same as just writing flex: 2*/
+    }
+    li:nth-child(2){
+        flex: 1 1 0;
+    }
+}
+
+.parent12{
+    display: flex;   // or display: inline-flex;
+
+    flex-flow: row wrap; // default: nowrap || wrap || wrap-reverse
+
+    // height: 300px;
+
+    margin-bottom: 50px;
+    li{
+        width: 100px;
+        height: 100px;
+        background-color: #8cacea;
+        margin: 8px;
+        list-style: none;
+    }
+    li:nth-child(1){
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.parent13{
+    display: flex;   // or display: inline-flex;
+
+    flex-flow: row wrap; // default: nowrap || wrap || wrap-reverse
+
+    // height: 300px;
+
+    margin-bottom: 50px;
+    li{
+        width: 100px;
+        height: 100px;
+        background-color: #8cacea;
+        margin: 8px;
+        list-style: none;
+    }
+    li:nth-child(1){
+        margin-right: auto;
+    }
+}
